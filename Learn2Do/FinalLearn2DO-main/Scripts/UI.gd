@@ -30,7 +30,7 @@ func _ready():
 		item = items[x]
 		var tasks = item.task
 		tasklist.append(item.task)
-		tasknums.append(len(item["steps"]))
+		tasknums.append(len(item["icons"]))
 
 # reads the json file
 # source: https://www.youtube.com/watch?v=mtbcbxxsOI0&t=11s
@@ -85,7 +85,7 @@ func _on_StartList_item_selected(index):
 		for i in range(len(tasklist)):
 			if StartList.get_item_text(index) == tasklist[i]:
 				item = items[i]
-				for x in item.steps.size():
+				for x in item.icons.size():
 					InputControl.imgarraypass.append("res://Icons/" + item["icons"][x])
 				SceneTransition.change_scene("res://Scenes/mainthing.tscn")
 				InputControl.N = tasknums[i]

@@ -1,9 +1,8 @@
 [
   {
     "task": "Wash Hands",
-    "steps": ["Turn on faucet", "Wet hands", "Turn off faucet", "Get soap", "Scrub hands together", "Turn on faucet", "Rinse soap off hands", "Turn off faucet"],
-    "icons": ["TurnOnFaucet.png", "WetHands.png", "TurnOffFaucet.png", "GetSoap.png", "ScrubHands.png", "TurnOnFaucet.png", "RinseSoapOffHands.png", "TurnOffFaucet.png"],
-    "icons": ["TurnOnFaucet.png", "WetHands.png", "TurnOffFaucet.jpg", "GetSoap.png", "ScrubHands.png", "TurnOnFaucet.png", "RinseSoapOffHands.png", "TurnOffFaucet.jpg"]
+    "steps": ["Turn on faucet", "Wet hands", "Turn off faucet", "Get soap", "Scrub hands together", "Turn on faucet", "Rinse soap off hands"],
+    "icons": ["TurnOnFaucet.png", "WetHands.png", "TurnOffFaucet.png", "GetSoap.png", "ScrubHands.png", "TurnOnFaucet.png", "RinseSoapOffHands.png", "TurnOffFaucet.png"]
   },
   {
     "task": "Brush Teeth",
